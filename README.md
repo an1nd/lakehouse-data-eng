@@ -7,7 +7,7 @@ An automated, enterprise-grade data lakehouse pipeline processing retail transac
 ## Architecture Overview
 
 ```
-[Postgres / Ghost DB] 
+[Postgres] 
        │ (Databricks CDC / JDBC Ingestion)
        ▼
 [Bronze Layer]  ──► Delta Lake Raw Tables (`walmart.bronze.*`)
