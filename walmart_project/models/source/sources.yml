@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: walmart_bronze
+    database: Walmart
+    schema: bronze
+    tables:
+      - name: customers
+      - name: products
+      - name: orders

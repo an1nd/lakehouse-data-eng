@@ -1,0 +1,19 @@
+# Credentials & Secrets
+.env
+*.env
+profiles.yml
+walmart_project/profiles.yml
+
+# Airflow runtime logs & symlinks
+airflow/logs/
+airflow/plugins/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# dbt cache & builds
+walmart_project/target/
+walmart_project/dbt_packages/
+walmart_project/logs/
